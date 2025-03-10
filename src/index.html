@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List Project</title>
+    <style>
+        .TaskCard {
+          border: 1px solid #ccc;
+          padding: 10px;
+          margin: 10px;
+          width: 200px;
+         display: inline-block;
+        }
+      </style>
+</head>
+<body>
+    <form action="" id="myForm">
+        <input type="hidden" id="myId">
+        <label for="title">Title</label>
+        <input id="title" type="text" required>
+
+        <br> <br>
+        
+        <label for="status">Status</label>
+        <input id="status" type="text" required>
+
+        <br> <br>
+
+        <label for="sDate">Start Date</label>
+        <input id="sDate" type="date" required>
+
+        <br> <br>
+        
+        <label for="eDate">End Date</label>
+        <input id="eDate" type="date" required>
+
+        <br> <br>
+
+        <button  type="submit" id="btn">Add Task</button>
+    </form>
+
+    <div id="myDiv">
+
+    </div>
+
+    <script src="../dist/index.js"></script>
+</body>
+</html>
